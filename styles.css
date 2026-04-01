@@ -139,16 +139,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #8A4D6F;
-  --secondary: #6C8196;
-  --accent: #D8C7AE;
-  --bg-light: #F8F6F2;
-  --bg-dark: #4A3242;
-  --text-dark: #1F1A17;
-  --text-light: #F8F6F2;
-  --text-muted: #6E655F;
-  --border-light: #E7DFD2;
-  --border-dark: #8E7390;
+--primary: #1A3A5C;
+  --secondary: #2E6DA4;
+  --accent: #C8A96E;
+  --bg-light: #FFFFFF;
+  --bg-dark: #1A3A5C;
+  --text-dark: #1A1A1A;
+  --text-light: #FFFFFF;
+  --text-muted: #5A6472;
+  --border-light: #888a8c;
+  --border-dark: #2E6DA4;
   --nav-bg: transparent;
   --nav-text: #1F1A17;
   --nav-text-hover: #8A4D6F;
@@ -171,14 +171,21 @@
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.25s ease;
 
-  --gradient-primary: linear-gradient(135deg, #8A6471 0%, #6F4C58 100%);
-  --gradient-gold-shine: linear-gradient(135deg, #F0D9A8 0%, #D9BB7E 50%, #C9A05C 100%);
+  --gradient-primary: linear-gradient(135deg, #1F456E 0%, #142C46 100%);
+  --gradient-gold-shine: linear-gradient(135deg, #CDB17B 0%, #BB954C 50%, #9A793B 100%);
   --gradient-secondary: linear-gradient(135deg, #365884 0%, #27466F 100%);
-  --gradient-gold-accent: linear-gradient(180deg, #E9D2A3 0%, #D6B373 100%);
+  --gradient-gold-accent: linear-gradient(180deg, #CAAC72 0%, #B58E44 100%);
   --gradient-dark-section: linear-gradient(180deg, #6E525B 0%, #5B434A 100%);
   --gradient-overlay-dark: linear-gradient(90deg, rgba(247,242,238,0.92) 0%, rgba(247,242,238,0.82) 45%, rgba(247,242,238,0.18) 100%);
   --gradient-light-section: linear-gradient(180deg, #FBF7F4 0%, #F1E9E2 100%);
   --gradient-overlay-light: linear-gradient(180deg, rgba(255,255,255,0.78) 0%, rgba(255,255,255,0.58) 100%);
+  --primary-color: #1A3A5C;
+  --secondary-color: #2E6DA4;
+  --accent-color: #C8A96E;
+  --background-color: #FFFFFF;
+  --surface-color: #F4F6F8;
+  --text-color: #1A1A1A;
+  --text-secondary-color: #5A6472;
 }
 
 *,
@@ -444,7 +451,7 @@ blockquote {
 
 .btn-primary:hover {
   color: var(--text-light);
-  background: linear-gradient(135deg, #9B5A7E 0%, #7D5665 100%);
+  background: linear-gradient(135deg, #214973 0%, #193859 100%);
 }
 
 .btn-secondary {
@@ -512,7 +519,7 @@ blockquote {
 }
 
 .card {
-  background: #ffffff;
+  background: #F4F6F8;
   border-radius: var(--radius-card);
   padding: var(--spacing-card-padding);
   box-shadow: var(--shadow-card);
@@ -560,7 +567,7 @@ select {
   padding: 12px 16px;
   border-radius: var(--radius-input);
   border: 1px solid var(--border-light);
-  background: #ffffff;
+  background: #FFFFFF;
   color: var(--text-dark);
   font-size: 15px;
   font-family: 'Rubik', sans-serif;
@@ -781,16 +788,16 @@ textarea {
   --nav-bg: transparent;
   --nav-text: #1F1A17;
   --nav-text-hover: #8A4D6F;
-  --primary: #8A4D6F;
-  --secondary: #6C8196;
-  --accent: #D8C7AE;
-  --bg-light: #F8F6F2;
-  --bg-dark: #4A3242;
-  --text-dark: #1F1A17;
-  --text-light: #F8F6F2;
-  --text-muted: #6E655F;
-  --border-light: #E7DFD2;
-  --border-dark: #8E7390;
+  --primary: #1A3A5C;
+  --secondary: #2E6DA4;
+  --accent: #C8A96E;
+  --bg-light: #FFFFFF;
+  --bg-dark: #1A3A5C;
+  --text-dark: #1A1A1A;
+  --text-light: #FFFFFF;
+  --text-muted: #5A6472;
+  --border-light: #888a8c;
+  --border-dark: #2E6DA4;
 }
 
 .navbar {
@@ -1050,16 +1057,16 @@ textarea {
   --nav-bg: transparent;
   --nav-text: #1F1A17;
   --nav-text-hover: #8A4D6F;
-  --primary: #8A4D6F;
-  --secondary: #6C8196;
-  --accent: #D8C7AE;
-  --bg-light: #F8F6F2;
-  --bg-dark: #4A3242;
-  --text-dark: #1F1A17;
-  --text-light: #F8F6F2;
-  --text-muted: #6E655F;
-  --border-light: #E7DFD2;
-  --border-dark: #8E7390;
+  --primary: #1A3A5C;
+  --secondary: #2E6DA4;
+  --accent: #C8A96E;
+  --bg-light: #FFFFFF;
+  --bg-dark: #1A3A5C;
+  --text-dark: #1A1A1A;
+  --text-light: #FFFFFF;
+  --text-muted: #5A6472;
+  --border-light: #888a8c;
+  --border-dark: #2E6DA4;
 }
 
 .navbar {
@@ -1385,7 +1392,7 @@ textarea {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #8A4D6F));
+  outline: 2px solid var(--primary-color, var(--primary, #1A3A5C));
   outline-offset: 2px;
 }
 
@@ -2169,12 +2176,12 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   --footer-text: #F8F6F2;
   --footer-text-muted: rgba(248, 246, 242, 0.62);
   --footer-border: rgba(142, 115, 144, 0.35);
-  --footer-accent: #D8C7AE;
+  --footer-accent: #C8A96E;
   --footer-link: rgba(248, 246, 242, 0.82);
-  --footer-link-hover: #D8C7AE;
-  --footer-icon: #D8C7AE;
-  --footer-cta-bg: #8A4D6F;
-  --footer-cta-hover: #7a4262;
+  --footer-link-hover: #C8A96E;
+  --footer-icon: #C8A96E;
+  --footer-cta-bg: #1A3A5C;
+  --footer-cta-hover: #1A3A5C;
   background-color: var(--footer-bg);
   color: var(--footer-text);
   font-family: 'Rubik', sans-serif;
@@ -2664,8 +2671,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-hero-section .index-hero-btn-primary:hover {
-  background: #7A4362;
-  border-color: #7A4362;
+  background: #1A3A5C;
+  border-color: #1A3A5C;
   box-shadow: 0 18px 40px rgba(126, 88, 101, 0.22);
   transform: translateY(-2px);
 }
@@ -4329,8 +4336,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-contact-section__submit:hover {
-  background: #7A4262;
-  border-color: #7A4262;
+  background: #1A3A5C;
+  border-color: #1A3A5C;
   box-shadow: 0 18px 40px rgba(126, 88, 101, 0.22);
   transform: translateY(-1px);
 }
@@ -5231,6 +5238,15 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
