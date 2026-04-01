@@ -5248,6 +5248,95 @@ body.accessibility-widget-visible ._access-menu {
 /* === BUTTON TEXT OVERRIDES END === */
 
 
+.index-services-section,
+.index-about-section,
+.index-contact-section {
+  background: var(--background-color) !important;
+  background-image: none !important;
+}
+
+.index-team-section {
+  background: var(--surface-color) !important;
+  background-image: none !important;
+  padding-bottom: 80px !important;
+}
+
+.index-testimonials-section {
+  background: var(--background-color) !important;
+  background-image: none !important;
+}
+
+.index-stats-section {
+  background: var(--surface-color) !important;
+  background-image: none !important;
+}
+
+.index-team-section .index-team-heading,
+.index-team-section .index-team-eyebrow,
+.index-team-section .index-team-subtext,
+.index-team-section .index-team-role,
+.index-team-section .index-team-card-body p,
+.index-team-section .index-team-reassurance-text {
+  color: var(--text-color) !important;
+}
+
+.index-team-section .index-team-card {
+  background: var(--background-color) !important;
+  border: 1px solid #E2E6EA !important;
+}
+
+.index-team-section .index-team-reassurance-line {
+  background: #E2E6EA !important;
+}
+
+.index-testimonials-section .index-testimonials-title,
+.index-testimonials-section .index-testimonials-subtitle,
+.index-testimonials-section .index-testimonials-quote p,
+.index-testimonials-section .index-testimonials-name,
+.index-testimonials-section .index-testimonials-attribution {
+  color: var(--text-color) !important;
+}
+
+.index-testimonials-section .index-testimonials-card {
+  background: var(--surface-color) !important;
+  border: 1px solid #E2E6EA !important;
+}
+
+.index-stats-section .index-stats-heading,
+.index-stats-section .index-stats-subtext,
+.index-stats-section .index-stats-number,
+.index-stats-section .index-stats-label,
+.index-stats-section .index-stats-desc {
+  color: var(--text-color) !important;
+}
+
+.index-services-section::before,
+.index-about-section::before,
+.index-team-section::before,
+.index-testimonials-section::before,
+.index-stats-section::before {
+  content: '';
+  display: none !important;
+}
+
+.index-contact-section .index-contact-heading,
+.index-contact-section p,
+.index-contact-section label,
+.index-contact-section h2,
+.index-contact-section h3 {
+  color: var(--text-color) !important;
+}
+
+.index-services-section,
+.index-about-section,
+.index-team-section,
+.index-testimonials-section,
+.index-stats-section,
+.index-contact-section {
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
